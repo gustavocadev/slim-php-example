@@ -1,0 +1,22 @@
+{
+  "name": "gustavo/slim-macro",
+  "version": "1.0.0",
+  "autoload": {
+    "psr-4": {
+      "Gustavo\\SlimMacro\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "gustavocadev",
+      "email": "gustavocadev@gmail.com"
+    }
+  ],
+  "require": {
+    "slim/slim": "4.*",
+    "slim/psr7": "^1.7"
+  },
+  "scripts": {
+    "dev": "php -S localhost:8080 -t src"
+  }
+}
